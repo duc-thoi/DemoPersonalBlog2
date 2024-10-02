@@ -1,0 +1,124 @@
+.arrow-left-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text29 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button-base1 {
+  gap: var(--gap-5xs);
+}
+.button-base1,
+.button5,
+.previous-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.previous-button-wrapper {
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+}
+.number {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.content16 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+}
+.pagination-number-base {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-ghostwhite-200);
+  overflow: hidden;
+}
+.content17,
+.pagination-number-base,
+.pagination-number-base1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content17 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  padding: var(--padding-3xs) var(--padding-mini);
+}
+.pagination-number-base1 {
+  overflow: hidden;
+}
+.content18,
+.content19,
+.pagination-number-base1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+}
+.content18 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-sm) var(--padding-3xs)
+    var(--padding-mini);
+}
+.content19 {
+  padding: var(--padding-3xs) var(--padding-smi) var(--padding-3xs)
+    var(--padding-sm);
+}
+.content19,
+.content22,
+.pagination-numbers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content22 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  padding: var(--padding-3xs) var(--padding-2xs) var(--padding-3xs)
+    var(--padding-xs);
+}
+.pagination-numbers {
+  gap: var(--gap-11xs);
+}
+.text30 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 33px;
+}
+.pagination {
+  align-self: stretch;
+  border-top: 1px solid var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xl-5) 0 var(--padding-12xs-5);
+  gap: var(--gap-xl);
+  font-size: var(--text-sm-medium-size);
+  color: var(--color-gray-300);
+  text-align: center;
+}
+@media screen and (max-width: 750px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+}

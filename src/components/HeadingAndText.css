@@ -1,0 +1,36 @@
+.heading5 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 359px;
+  max-width: 100%;
+}
+.heading-and-icon1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  cursor: pointer;
+}
+@media screen and (max-width: 750px) {
+  .heading5 {
+    min-width: 100%;
+  }
+  .heading-and-icon1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading5 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}
